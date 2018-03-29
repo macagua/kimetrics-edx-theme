@@ -62,8 +62,9 @@ _Figure 2 - CMS App from Open edX Platform_
 
 # Reference
 
-- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/theme_directories.html
 
-- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/compiling_theme.html
+- ![Root Directories for Theme Files](http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/theme_directories.html).
 
-- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/enable_themes.html
+- ![Compiling a Theme](http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/compiling_theme.html).
+
+- ![Enabling and Applying Themes](http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/enable_themes.html).
