@@ -1,0 +1,40 @@
+<%page expression_filter="h"/>
+<%!
+from django.utils.translation import ugettext as _
+from openedx.core.djangolib.markup import HTML, Text
+%>
+<%inherit file="base.html" />
+<%block name="title">${_("Page Not Found")} - Open edX Studio for Kimetrics</%block>
+<%block name="bodyclass">view-util util-404</%block>
+
+
+<%block name="content">
+<div class="wrapper-content wrapper">
+  <section class="content">
+    <header>
+      <h1 class="title title-1">${_("Ups! Error 404 😳")}</h1>
+    </header>
+    <article class="content-primary" role="main">
+      <p>
+      ${_('The page that you were looking for was not found.')}
+      ${Text(_('Go back to the Open edX for Kimetrics {homepage} or let us know about any pages that may have been moved at {email}.')).format(
+        homepage=HTML('<a href="/">homepage</a>'),
+        email=HTML('<a href="mailto:{address}">{address}</a>').format(
+          address=Text(settings.TECH_SUPPORT_EMAIL)
+        )
+      )}
+      </p>
+    </article>
+  </section>
+<!--
+  <div class="container">
+    <div class="row">
+      <div class="errorPg">
+        <h1 class="center"></h1>
+        <h5 class="center">Perdón! No sabemos qué pasó, pero si quieres probar nuestro software, puedes ir <a href="http://kimetrics.com/contacto/">aquí.</a></h5>
+      </div>
+    </div>
+  </div>
+-->
+</div>
+</%block>

@@ -1,0 +1,29 @@
+// header logo styling
+.wrapper-header .branding a img {
+    max-height: 40px;
+    display: block;
+}
+
+.view-howitworks.not-signedin .wrapper-content-header {
+    background-color: #f5916c;
+    background-image: -webkit-linear-gradient(#f5916c,#ff8b60,#ff703b);
+    background-image: linear-gradient(#f5916c,#ff8b60,#ff703b);
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.view-howitworks.not-signedin .content-header h1 {
+    float: none;
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid #ff703b;
+    padding: 0;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+.view-howitworks.not-signedin .content-header .tagline {
+    margin: 0;
+    color: #ffffff;
+    font-style: italic;
+}
+

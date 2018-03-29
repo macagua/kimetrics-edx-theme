@@ -1,0 +1,48 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Contact")} - Kimetrics - Smart field management</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>${_("Contact")}</h1>
+        <p>${_("This page left intentionally blank. Feel free to add your own content.")}</p>
+
+        <div class="container" style="padding-bottom: 3%;">
+            <div class="row">
+                <div class="eight columns">
+                    <h2 style="padding-bottom: 3%">Solicita un demo</h2>
+					<div role="form" class="wpcf7" id="wpcf7-f22-p7-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contacto/#wpcf7-f22-p7-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="22" />
+<input type="hidden" name="_wpcf7_version" value="4.4.1" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f22-p7-o1" />
+<input type="hidden" name="_wpnonce" value="0963448bc7" />
+</div>
+<div class="row">
+<div class="six columns"><label for="exampleEmailInput">Nombre</label><span class="wpcf7-form-control-wrap text-710"><input type="text" name="text-710" value="" size="40" class="wpcf7-form-control wpcf7-text u-full-width" aria-invalid="false" /></span></div>
+<div class="six columns"><label for="exampleEmailInput">Apellido</label><span class="wpcf7-form-control-wrap text-apellido"><input type="text" name="text-apellido" value="" size="40" class="wpcf7-form-control wpcf7-text u-full-width" aria-invalid="false" /></span></div>
+</div>
+<div class="row">
+<div class="six columns"><label for="exampleEmailInput">Empresa*</label><span class="wpcf7-form-control-wrap text-empresa"><input type="text" name="text-empresa" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required u-full-width" aria-required="true" aria-invalid="false" /></span></div>
+<div class="six columns"><label for="exampleEmailInput">Teléfono*</label><span class="wpcf7-form-control-wrap text-telefono"><input type="text" name="text-telefono" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required u-full-width" aria-required="true" aria-invalid="false" /></span></div>
+</div>
+<div class="row">
+<div class="six columns"><label for="exampleEmailInput">Correo electrónico*</label><span class="wpcf7-form-control-wrap email-910"><input type="email" name="email-910" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email u-full-width" aria-required="true" aria-invalid="false" placeholder="ejemplo@kimetrics.com" /></span></div>
+<div class="six columns"><label for="exampleRecipientInput">Giro*</label><span class="wpcf7-form-control-wrap menu-386"><select name="menu-386" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required u-full-width" aria-required="true" aria-invalid="false"><option value="Retail">Retail</option><option value="Farmacéutica">Farmacéutica</option><option value="Otra">Otra</option></select></span></div>
+</div>
+<p><label for="exampleMessage">Mensaje</label><span class="wpcf7-form-control-wrap textarea-581"><textarea name="textarea-581" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea u-full-width" aria-invalid="false"></textarea></span><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit button" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>                </div>
+				               
+
+                <div class="four columns" style="padding-top: 3%;">
+					<p>Ciudad de México<br>Blvd. Adolfo Mateos 1890 “A”<br>Col. Alpes, Delegación Álvaro Obregón<br>México D.F. C.P. 01010.</p><p>Puebla<br>Diagonal 19 Pte. No 3102. Int 101. <br>Col. El Vergel<br>Puebla, Puebla. C.P. 72400</p><p>Chicago<br>345 E Wacker Dr. Unit 4308<br>Chicago, IL. 60601</p>                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
