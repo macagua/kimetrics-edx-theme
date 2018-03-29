@@ -32,7 +32,7 @@ _Figure 2 - CMS App from Open edX Platform_
 
 4. Clone this repo
 
-        $ git clone https://github.com/macagua/kimetrics-edx-platform-theme.git
+        $ git clone https://macagua@bitbucket.org/macagua/kimetrics-edx-platform-theme.git
 
 5. Make some changes in `lms.env.json` located in `/path/to/edx/app/edxapp/`. Then change some variables to this:
 
@@ -62,5 +62,8 @@ _Figure 2 - CMS App from Open edX Platform_
 
 # Reference
 
-- TODO.
+- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/theme_directories.html
 
+- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/compiling_theme.html
+
+- http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/changing_appearance/theming/enable_themes.html
